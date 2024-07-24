@@ -1,0 +1,130 @@
+<!-- Tipo de documento -->
+<!DOCTYPE html>
+
+<!-- html: etiqueta principal, engloba toda la página, nada va fuera de esta etiqueta. -->
+<!-- lang="es": lenguaje de la página -->
+
+<html lang="es">
+<!-- head: Configuraciones, que no se ven en el sitio -->
+<!-- conectar archivos, describir el sitio, poner tamaños -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- title: Titúlo de la pestaña de la página -->
+    <title>Mi primer página</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!--     <style>
+        body {
+            color: red;
+        }
+
+        h1 {
+            color: white;
+        }
+    </style> 
+-->
+
+</head>
+
+<!-- body: Contenido visible de la página -->
+<!-- Aquí vamos a ocupar nuestro catálogo de etiquetas-->
+
+<!-- <body style="background-color: aqua;"> -->
+
+<body>
+    <!-- Cabeceras -->
+    <header>
+        <a href="https://tecnolochicas.mx/" target="_blank">
+            <img id="logo" src="https://tecnolochicas.mx/public/images/tecnolochicas-logo.png"
+                alt="logo technolochicas">
+        </a>
+        <ul id="navegacion">
+            <li><a href="#gatito">Gatitos</a></li>
+            <li><a href="#perrito">Perritos</a></li>
+            <li><a href="https://tecnolochicas.mx/" target="_blank">Technolochicas</a></li>
+        </ul>
+
+    </header>
+    <!-- Contenido central -->
+    <main>
+
+        <h1 class="texto-centrado">¡Hola mundo!</h1>
+        <h4 class="texto-centrado">con mascotas UnUr</h4>
+
+
+        <div class="texto-centrado">
+            <p class="inline-block  mascota texto-centrado">
+                <!-- Mark funciona para resaltar el texto con amarillo. -->
+                Me <mark>gusta</mark> la <i>sandia</i> porque me da la <s>alegría</s> de mis <b>mascotas</b>.
+            </p>
+        </div>
+
+    
+        <h2 id="gatito">Los gatitos</h2>
+        <p>Los gatos, criaturas enigmáticas y cautivadoras, son verdaderas maravillas de la naturaleza. Su gracia felina
+            y su independencia los convierten en compañeros fascinantes. Sus ojos, ventanas a un alma misteriosa,
+            brillan con una inteligencia astuta y una curiosidad innata. Dotados de un oído excepcional y un olfato
+            agudo, exploran el mundo con una percepción sensorial que escapa a nuestra comprensión humana. Sus ágiles
+            cuerpos, diseñados para la caza y la exploración, se mueven con una elegancia y precisión impresionantes.
+            Pero más allá de su destreza física, los gatos poseen una capacidad única para brindar confort y compañía.
+            Su ronroneo, una melodía relajante, tiene el poder de aliviar el estrés y calmar el alma. Su presencia, a
+            veces distante y otras afectuosa, nos recuerda la importancia de valorar los momentos de conexión genuina.
+            En cada gato reside un universo de maravillas por descubrir, un enigma que nos invita a observar, aprender y
+            amar sin condiciones.</p>
+
+        <p class="texto-centrado">
+            <img id="gatito" class="mascota"
+                src="https://img.freepik.com/foto-gratis/adorable-ilustracion-gatitos-jugando-bosque-generative-ai_260559-483.jpg"
+                alt="Imagen gatito">
+        </p>
+
+        <h2 id="perrito">Los perritos </h2>
+        <p>Los perritos son compañeros adorables y leales que aportan numerosos beneficios a nuestras vidas. Su
+            presencia en el hogar puede mejorar significativamente la salud mental de sus dueños. Estudios han
+            demostrado que interactuar con un perro puede reducir los niveles de estrés, ansiedad y depresión. La simple
+            acción de acariciar a un perro libera oxitocina, una hormona que promueve la sensación de bienestar y
+            felicidad. Además, los perritos fomentan un estilo de vida más activo, ya que requieren paseos diarios y
+            tiempo de juego, lo que ayuda a sus dueños a mantenerse en forma y saludables. La responsabilidad de cuidar
+            a un perro también puede proporcionar estructura y propósito a la rutina diaria de una persona.
+
+            Los perros son excelentes para la socialización. Pasearlos en el parque o en el vecindario puede facilitar
+            encuentros y conversaciones con otras personas, lo que ayuda a combatir la soledad y a formar nuevas
+            amistades. Además, los perritos pueden ser de gran ayuda para personas con discapacidades, actuando como
+            perros de servicio y proporcionando asistencia crucial en diversas tareas diarias. En resumen, los perritos
+            no solo son adorables y cariñosos, sino que también ofrecen beneficios físicos, emocionales y sociales que
+            mejoran la calidad de vida de sus dueños.</p>
+      
+
+        <p class="texto-centrado">
+            <img id="perrito" class="mascota" src="imagenes/natacion.jpg" alt="Imagen de Perrito">
+        </p>
+
+        <p>
+            No puedo decidirme entre perros y gatos, porque ambos tienen su toque.
+        </p>
+
+        <p>
+            <a href="https://tecnolochicas.mx/" target="_blank">Technolochicas</a>
+        </p>
+
+        <p>
+            <a href="https://tecnolochicas.mx/" target="_blank">
+                <button>Presioname</button>
+            </a>
+        </p>
+    </main>
+
+    <!-- Pie de pagina -->
+    <footer>
+        <h5>By Karla Velazquez  (<i><a href="https://malinali.dev/">malinali.dev</a></i>) en <b>Technolochicas PRO</b></h5>
+        
+        <h6>
+            <a href="contacto.html">Contacto</a>
+        </h6>
+    </footer>
+
+</body>
+
+</html>
